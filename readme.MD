@@ -31,10 +31,10 @@ return connection
 Once the Application opens, the user has to input their user-id in order to access the Database.
 The input is passed into a query in backend.py to ensure validity.
 
-![Login](./assets/Login.png)
+![Login](/assets/Login.png)
 
 Once the user has entered a valid user-id, the Application's front page opens where they can choose from one of the following options: 
-![FrontPage](./assets/frontpage.png)
+![FrontPage](/assets/frontpage.png)
 
 ## Search Businesses
 The user can choose the first option to search for businesses and rate those businesses that satisfy certain criteria.
@@ -43,7 +43,8 @@ The user can choose the first option to search for businesses and rate those bus
 2. City: User can enter a city 
 3. Name: User can enter a part of the name or the whole name
 
-![searchBus](./assets/searchBus.png)
+
+![searchBus](/assets/searchBus.png)
 
 ## Search Users
 Similarly, the user can also choose the second option to search for users and make friends that satisfy certain criteria
@@ -51,26 +52,26 @@ Similarly, the user can also choose the second option to search for users and ma
 1. Name: Users can enter a name or a part of their name
 2. Useful/Funny/Cool: If the value is more than 0 for any of the parameters then the users are considered useful or funny or cool
 
-![makeFriends](./assets/makeFriends.png)
+![makeFriends](/assets/makeFriends.png)
 
 ## Make Friends
 
 A user can make friends by double clicking on one of the rows in the provided table. A messagebox appears that confirms whether the logged in user would like to be friends with another user.
 
-![friendsq](./assets/friendsq.png)
+![friendsq](/assets/friendsq.png)
 
 Once the user confirms, a message box appears that confirms the insertion of the relation in the friendship table
-![yesfriends](./assets/yesfriends.png)
-![friendshipdb](./assets/freindshipdb.png)
+![yesfriends](/assets/yesfriends.png)
+![friendshipdb](/assets/freindshipdb.png)
 
 ## Write Review
 
 Similarly, a user can also write a review for a business by double clicking on one of the rows in the table provided. A messagebox appears that confirms whether the logged in user would like to rate the business.
-![review](./assets/review.png)
+![review](/assets/review.png)
 
 Once, the user confirms, a message box appears that asks the user to input the rating on a 5 point scale.
-![yesreview](./assets/yesreview.png)
-![confirmReview](./assets/confirmReview.png)
+![yesreview](/assets/yesreview.png)
+![confirmReview](/assets/confirmReview.png)
 
 The input affects the business and the review table accordingly.
 
